@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+    <script defer src="script.js"></script>   
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title-form">
+            Login Form
+        </h1>      
+        <form method="post" id="form" action = "/dashboard.html" class="loginform">            
+            <div id="error"></div>
+            <div class="txt_field">
+                <label for="username" class="label">Username</label>
+                <input type="text" id="username" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="txt_field">
+                <label for="password" class="label">Password</label>
+                <input type="text" id="password" class="input">
+                <span class="error-message"></span>
+            </div>            
+            <button class="submitbutton" type="submit" onclick="validate">
+                Login
+            </button>   
+            <div class="buttonsgrid">      
+                <button class="register" id="register" href = "/signup.html">
+                    <a href="/signup.html">Register</a>                    
+                </button>           
+                <button class="forgotpass">
+                    Forgot
+                </button>
+            </div>    
+            <!--<button class="forgotpass">                
+                Forgot Password
+            </button> 
+        -->
+        </form>
+    </div>    
+</body>
+</html>

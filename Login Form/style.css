@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #d8dbdd;
+    background: linear-gradient(120deg, #93dcfe, #a676ff);
+    height: 100vh;
+    overflow: show;  
+}
+
+.title-form {
+    font-size:33px; 
+}
+.container {    
+    box-sizing: border-box;
+
+    background-color: white ;
+    margin-top: 100px;
+    margin-left: 577px;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);*/
+    width: 600px;
+    border-radius: 10px;
+}  
+.container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid lightgray;
+}
+.container form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.txt_field {
+    color: blueviolet;
+    position: relative;
+    border-bottom: 2px solid blueviolet;
+    margin: 30px 0;
+    font-size: 25px;
+}
+.input {
+width: 100%;
+padding: 0 5px;
+height: 40px;
+border: none;
+background: none;
+outline: none;
+font-size: 16px;
+}
+.submitbutton {
+    margin-top: -30px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color:rgb(193, 132, 251);
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s , color 0.3s; 
+}
+.submitbutton:hover {
+    margin-top: -30px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color:rgb(162, 62, 255);
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submitbutton:active {
+    opacity: 0.4;
+}
+
+.buttonsgrid {
+    margin-bottom: 100px;
+    
+}
+
+.register {    
+    font-size: 20px;
+    color: blueviolet;   
+    width: 150px;
+    height: 80px;
+    background-color: #ffffff;    
+    border: 1px solid blueviolet;      
+    cursor: pointer;
+    transition: background-color 0.7s , color 0.3s; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    margin-bottom: 20px;      
+ 
+}
+.register:hover {
+    border:none; 
+    color: white;
+    background-color: rgb(207, 157, 255);    
+
+}
+.forgotpass {    
+    font-size: 20px;      
+    color: blueviolet; 
+    width: 150px;
+    height: 80px;
+    background-color: #ffffff;    
+    border: 1px solid blueviolet;      
+    cursor: pointer;
+    transition: background-color 0.7s , color 0.3s; 
+    border-radius: 10px;
+    margin-left: 200px;
+      
+}
+
+.forgotpass:hover {
+    border:none; 
+    color: white
+    ;
+    background-color: rgb(207, 157, 255);    
+
+}
